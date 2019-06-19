@@ -1,5 +1,11 @@
 ---
 applications:
- - name: GetStartedNode
+ - name: redirector
    random-route: true
    memory: 256M
+routes:
+ - route: wardleymaps.com
+ - route: www.wardleymaps.com
+ - route: learn.wardleymaps.com
+ - route: atlas.wardleymaps.com
+ - route: preview.wardleymaps.com

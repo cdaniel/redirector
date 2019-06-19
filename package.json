@@ -1,7 +1,7 @@
 {
-  "name": "get-started-node",
+  "name": "redirector",
   "main": "server.js",
-  "description": "An introduction to developing Node.js apps on the IBM Cloud platform",
+  "description": "Forwards https requests that involve wardleymaps.com",
   "version": "0.1.1",
   "private": false,
   "engines": {
@@ -12,16 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM-Cloud/get-started-node"
+    "url": "https://github.com/cdaniel/redirector"
   },
   "dependencies": {
-    "@cloudant/cloudant": "^3.0.2",
-    "body-parser": "^1.17.x",
-    "cfenv": "^1.0.x",
+    "cfenv": "*",
     "dotenv": "^4.0.0",
     "express": "^4.15.x",
-    "mongodb": "^3.0.10"
+    "redirect-rules": "*"
   },
-  "author": "IBM Corp",
+  "author": "Chris Daniel",
   "license": "Apache-2.0"
 }
