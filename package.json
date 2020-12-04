@@ -2,10 +2,10 @@
   "name": "redirector",
   "main": "server.js",
   "description": "Forwards https requests that involve wardleymaps.com",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "engines": {
-    "node": "6.*"
+    "node": "*"
   },
   "scripts": {
     "start": "node server.js"
